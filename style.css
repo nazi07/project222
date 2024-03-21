@@ -1,0 +1,109 @@
+* {
+    text-align: center;
+    font-family: sans-serif;
+    background-color: azure;
+}
+/* Topic */
+h2 {
+    font-weight: 600;
+    font-size: 30px;
+    padding: 10px 30px 10px 20px;
+
+}
+
+/* nav bar */
+.Icon {
+    height: 20px;
+    width: 20px;
+}
+ul[class="icon"] {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0;
+    overflow: hidden;
+}
+li[class="icon"] {
+    float: right;
+}
+li[class="icon"] a {
+    display: block;
+    color: aliceblue;
+    padding: 10px 20px 10px;
+}
+
+/* Intros */
+ul[class="intro"] {
+    list-style-type: none;
+
+    justify-content: center;
+    overflow: hidden;
+    margin: 0%;
+    padding: 0px 0px 100px 0px;
+}
+li[class="intros"] {
+    display: block;
+    padding: 50px 50px 50px 50px;
+}
+
+/* About me */
+p[class="block"] {
+    display: block;
+    background-color: aliceblue;
+}
+ul[class="abt"] {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    margin: 0%;
+    padding: 0px 0px 100px 0px;
+}
+li[class="abts"] {
+    display: block;
+}
+
+/* project */
+ul[class="project"] {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0;
+    overflow: hidden;
+}
+li[class="projects"] {
+    justify-content: center;
+}
+ul[class="food"] {
+    list-style-type: none;
+    
+    justify-content: center;
+    margin: 0%;
+    padding: 0;
+}
+li[class="foods"] {
+    display:block;
+    padding: 20px 100px 20px 100px;
+}
+ul[class="birthday"] {
+    list-style-type: none;
+    
+    justify-content: center;
+    margin: 0%;
+    padding: 0;
+}
+li[class="birthdays"] {
+    display: block;
+    padding: 50px 100px 20px 100px;
+}
+
+/* contact */
+ul[class="contact"] {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+    padding: 0;
+}
+li[class="contacts"] {
+    display: block;
+    padding: 20px 100px 20px 100px;
+}
